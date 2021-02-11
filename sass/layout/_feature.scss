@@ -1,0 +1,89 @@
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  & .title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  & .attention::before {
+    content: '';
+    width: 100%;
+    height: 120px;
+    background-image: url(../img/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  & .attention::before {
+    content: '';
+    width: 100%;
+    height: 120px;
+    background-image: url(../img/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  & .punctuality::before {
+    content: '';
+    width: 100%;
+    height: 120px;
+    background-image: url(../img/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  & .planning::before {
+    content: '';
+    width: 100%;
+    height: 120px;
+    background-image: url(../img/diagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  & .technologies::before {
+    content: '';
+    width: 100%;
+    height: 120px;
+    background-image: url(../img/astronaut.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  & .item {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 4 - 30px);
+  }
+  & .title {
+    color: var(--title-text-collor);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  & .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+}
+.feature-section {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}

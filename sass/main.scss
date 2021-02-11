@@ -1,8 +1,15 @@
+@import './base/container';
+@import './base/common';
 @import './utils/variables';
 @import './base/normalize';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './utils/visualy-hidden';
 @import './layout/header';
 @import './components/logo';
 @import './layout/header';
+@import './components/forms';
+@import './components/modal';
 @import './layout/hero';
 @import './layout/feature';
 @import './layout/works';
@@ -10,3 +17,8 @@
 @import './layout/clients';
 @import './layout/footer';
 @import './layout/projects';
+@import './components/backdrop';
+@import './components/menu';
+@import './components/contacts';
+@import './components/btn';
+@import './components/social';
